@@ -1,0 +1,7 @@
+{
+  "git.enabled": true,
+  "git.optimisticUpdate": false,
+  "git.promptToSaveFilesBeforeCommit": "always",
+  "git.promptToSaveFilesBeforeStash": "always",
+  "git.autoStash": true
+}

@@ -1,0 +1,95 @@
+<% include ./partials/header.ejs %>
+    <div class="w-full min-h-screen bg-zinc-900 text-white py-5">
+        <div class="w-full px-4 flex items-center justify-between">
+            <img class="w-1/4" src="/images/logo.png" alt="">
+            <div class="icons -mt-2 flex gap-5 items-center">
+                <i class="text-[1.4rem] ri-heart-3-line"></i>
+                <i class="text-[1.4rem] ri-messenger-line"></i>
+            </div>
+        </div>
+        <div class="story px-3 flex gap-3 overflow-auto mt-5">
+            <div class="circle flex-shrink-0">
+                <div class="gradient w-[18vw] h-[18vw] bg-sky-100 rounded-full bg-gradient-to-r from-purple-700 to-orange-500 flex items-center justify-center">
+                    <div class="inner w-[92%] h-[92%] rounded-full overflow-hidden">
+                        <img class="w-full h-full object-cover" src="https://imgs.search.brave.com/62NVl4nnw90PjNFwVQrvnHDYUEaVhStmeYxcidc5DNg/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9pLnBp/bmltZy5jb20vb3Jp/Z2luYWxzL2M4LzEw/LzI2L2M4MTAyNjUz/NmI5MDMzNGYwNTQx/M2QzMGJiNWM0NzEx/LmpwZw" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="circle flex-shrink-0">
+                <div class="gradient w-[18vw] h-[18vw] bg-sky-100 rounded-full bg-gradient-to-r from-purple-700 to-orange-500 flex items-center justify-center">
+                    <div class="inner w-[92%] h-[92%] rounded-full overflow-hidden">
+                        <img class="w-full h-full object-cover" src="https://imgs.search.brave.com/Sak8kCMpMCNuZvxuDaE2Auw0GoVcufOAtd4MOmJUFso/rs:fit:860:0:0/g:ce/aHR0cHM6Ly93YWxs/cGFwZXJjYXZlLmNv/bS93cC93cDYyNTgx/MzIuanBn" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="circle flex-shrink-0">
+                <div class="gradient w-[18vw] h-[18vw] bg-sky-100 rounded-full bg-gradient-to-r from-purple-700 to-orange-500 flex items-center justify-center">
+                    <div class="inner w-[92%] h-[92%] rounded-full overflow-hidden">
+                        <img class="w-full h-full object-cover" src="https://imgs.search.brave.com/e4BNZ6hdR-qiT3wRrdts_G2nkvrG-1Y2pTcdNkVAhgw/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9jdXRl/d2FsbHBhcGVyLm9y/Zy8yMS8zZC1hbmlt/ZS1waWNzL2JvdDNk/LWVkaXRvci0zZC1h/bmltZS1lZGl0b3It/b24tdGhlLWFwcC1z/dG9yZS5wbmc"
+                            alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="circle flex-shrink-0">
+                <div class="gradient w-[18vw] h-[18vw] bg-sky-100 rounded-full bg-gradient-to-r from-purple-700 to-orange-500 flex items-center justify-center">
+                    <div class="inner w-[92%] h-[92%] rounded-full overflow-hidden">
+                        <img class="w-full h-full object-cover" src="https://imgs.search.brave.com/iTHbDHPUfdxcQbaZk8UWQCr9q_eEdtu52DWW2bwx24s/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9pLnBp/bmltZy5jb20vb3Jp/Z2luYWxzLzY3L2Ix/L2Q2LzY3YjFkNjE3/YTUxNDY3ZWVhNWI2/MDZlNGY0NDQ1YTM0/LmpwZw" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="circle flex-shrink-0">
+                <div class="gradient w-[18vw] h-[18vw] bg-sky-100 rounded-full bg-gradient-to-r from-purple-700 to-orange-500 flex items-center justify-center">
+                    <div class="inner w-[92%] h-[92%] rounded-full overflow-hidden">
+                        <img class="w-full h-full object-cover" src="https://imgs.search.brave.com/cu1a39Pr_SlYDJu96aqDXpzJ93hLaLsTt1JC-t08Rf8/rs:fit:860:0:0/g:ce/aHR0cDovL20uZ2V0/dHl3YWxscGFwZXJz/LmNvbS93cC1jb250/ZW50L3VwbG9hZHMv/MjAyMy8wNi9DdXRl/LUFuaW1lLUdpcmwt/UHJvZmlsZS1QaWN0/dXJlLmpwZw"
+                            alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="circle flex-shrink-0">
+                <div class="gradient w-[18vw] h-[18vw] bg-sky-100 rounded-full bg-gradient-to-r from-purple-700 to-orange-500 flex items-center justify-center">
+                    <div class="inner w-[92%] h-[92%] rounded-full overflow-hidden">
+                        <img class="w-full h-full object-cover" src="https://imgs.search.brave.com/M2QoJlWKV0Py4KiiBX8VzJjQIStsXGuYKq0dNJmyjG0/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9jZG4u/cGl4YWJheS5jb20v/cGhvdG8vMjAxNC8x/Mi8xNi8xNi80Ni9t/b2UtNTcwNTE4XzY0/MC5wbmc" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="posts mb-20">
+            <% posts.reverse().forEach(function(elem){ %>
+                <div class="post mt-10 w-full min-h-[50vh]">
+                    <div class="title px-4 flex items-center gap-2">
+                        <div class="w-[8vw] h-[8vw] bg-sky-100 rounded-full overflow-hidden">
+                            <img class="w-full h-full object-cover" src="/images/uploads/<%= elem.user.profileImage %>" alt="">
+                        </div>
+                        <h4 class="text-sm">
+                            <%= elem.user.username %>
+                        </h4>
+                        <h6 class="text-xs opacity-30">1d</h6>
+                    </div>
+                    <div class="w-full h-96 mt-4 bg-sky-100 overflow-hidden">
+                        <img class="w-full h-full object-cover" src="/images/uploads/<%= elem.picture %>" alt="">
+                    </div>
+                    <div class="options w-full px-4 flex justify-between items-center text-[1.4rem]">
+                        <div class="flex gap-3 mt-2">
+                            <a href="/like/post/<%= elem._id %>">
+                                <% if(elem.likes.indexOf(user._id) !== -1){  %>
+                                    <i class="ri-heart-3-fill text-red-600"></i>
+                                    <% } else { %>
+                                        <i class="ri-heart-3-line"></i>
+                                        <% } %>
+                            </a>
+                            <i class="ri-chat-3-line"></i>
+                            <i class="ri-share-circle-line"></i>
+                        </div>
+                        <i class="ri-bookmark-line"></i>
+                    </div>
+                    <h3 class="px-4 mt-2 text-sm leading-none tracking-tight">
+                        <%= elem.likes.length %> likes
+                    </h3>
+                    <h2 class="text-white font-light text-sm mt-2"><span class="font-semibold pl-4 pr-2"><%= elem.user.username %></span>
+                        <%= elem.caption %>
+                    </h2>
+                </div>
+                <% }) %>
+        </div>
+    </div>
+    <% include ./partials/footer.ejs %>
